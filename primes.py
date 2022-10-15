@@ -14,5 +14,5 @@ def primes(number_of_primes):
                 list.append(n)
             n = n+1
     else:
-        raise(Exception(ValueError))
+        raise ValueError("Input must be greater than 0")
     return list
